@@ -28,4 +28,5 @@ Example: php bin/console stream:sampler --size=5 --type=url --url='https://www.r
 
 ## Unit tests
 Run: php vendor/phpunit/phpunit/phpunit tests/Sampler/Command/
+
 Note: I didn't write many tests. The unit tests above are showing that I can write it :) 
