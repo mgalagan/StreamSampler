@@ -1,13 +1,17 @@
 # StreamSampler
 Stream sampler picks random bites from input sources.
 You could specify input source from command line.
+
 ## Installation
 - Clone repository
 - cd into cloned repo dir
 - run 'composer install'
+
 ## Usage
+
 ### Command help 
 php bin/console stream:sampler --help
+
 ### Values piped directly
 Command: php bin/console stream:sampler -s 5 -t input
 
